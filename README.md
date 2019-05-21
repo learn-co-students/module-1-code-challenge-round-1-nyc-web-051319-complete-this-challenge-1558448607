@@ -27,13 +27,13 @@ We've provided you with a console that you can use to test your code. To enter a
 
 ### Basic methods
 
-- `Customer.all`
+<!-- - `Customer.all`
   - should return **all** of the customer instances
 - `Restaurant.all`
   - returns an array of all restaurants
 - `Review.all`
-  - returns all of the reviews
-  
+  - returns all of the reviews -->
+
 ### Associations and Aggregate Methods
 
 #### Customer
@@ -67,13 +67,19 @@ We've provided you with a console that you can use to test your code. To enter a
 - `Customer.all_names`
   - should return an **array** of all of the customer full names
 
+
+
+
 #### Build out the following method on the `Restaurant` class
 
 - `Restaurant.find_by_name(name)`
   - given a string of restaurant name, returns the first restaurant that matches
 
-#### Build out the following methods on the `Review` class
 
+
+
+
+#### Build out the following methods on the `Review` class
 - `Review#customer`
   - returns the customer object for that given review
   - Once a review is created, I should not be able to change the author
